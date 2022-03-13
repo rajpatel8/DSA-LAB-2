@@ -1,9 +1,6 @@
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.Scanner;
-/**
- * PA3
- */
 public class PA3 {
     public static void main(String[] args) {
         int n ,e;

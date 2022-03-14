@@ -17,8 +17,9 @@ public class PA2 {
             }
         }
         s.close();
+        System.out.println("New array");
         for (int i = 0; i < arr.length; i++) {
-            System.out.print(arr[i]);
+            System.out.print(arr[i] + " ");
         }
     }
 }

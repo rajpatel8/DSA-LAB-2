@@ -18,6 +18,7 @@ public class PA7 {
         while (arr.contains(r)) {
             arr.remove(arr.indexOf(r));
         }
-        System.out.print(arr.size());
+
+        System.out.print("Lenght of array after removing element "+ r + "is "+arr.size());
     }
 }

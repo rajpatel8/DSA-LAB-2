@@ -1,4 +1,5 @@
 import java.util.ArrayList;
+import java.util.Collections;
 import java.util.Scanner;
 public class PA9 {
     public static void main(String[] args) {
@@ -14,6 +15,7 @@ public class PA9 {
         r = s.nextInt();
         s.close();
         int S= 0;
+        Collections.sort(arr);
         for (int i = 0; i < n; i++) {
             for (int j = 0; j < n; j++) {
                 for (int j2 = 0; j2 < n; j2++) {

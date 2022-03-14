@@ -18,5 +18,6 @@ public class PA5 {
         s.close();
         Set <Integer> s1 = new LinkedHashSet<Integer>(arr) ;
         System.out.println(s1);
+        System.out.println("Length of new array : " + s1.size());
     }
 }

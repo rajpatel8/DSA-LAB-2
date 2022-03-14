@@ -10,12 +10,13 @@ public class PA8 {
         x = s.nextInt();
         for (int i = 0; i < n; i++) {
             V = s.nextInt();
-            s.close();
+            
             if (V == x) {
                 S++ ;
             }
             arr.add(V);
         }
+        s.close();
         if ((arr.size()/2) < S) {
             System.out.print(x +" appears " + S +" times ");
         }

@@ -1,9 +1,5 @@
 import java.util.Scanner;
 
-/*Given an array with n numbers split it from a specified position, and move the first part of array and append it to the end.
-Example: Given A=[12,10,5,6,22,52] and position =2
-Your function should return the modified array as:[5,6,22,52,12,10] */
-
 public class PA4 {
     public static void main(String[] args) {
         int n ;
@@ -17,6 +13,7 @@ public class PA4 {
         System.out.println("Enter the index ");
         int S = s.nextInt();
         s.close();
+        System.out.println("New array");
         for (int i = S; i < arr.length; i++) {
             System.out.print(arr[i] + " ");
         }

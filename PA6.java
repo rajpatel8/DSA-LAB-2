@@ -22,6 +22,7 @@ public class PA6 {
                 }
             }
         }
+        System.out.println("The elements which add add up to " + t + " are :");
         System.out.print(""+x + " " + y);
     }
 }

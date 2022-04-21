@@ -1,6 +1,5 @@
 import java.util.ArrayList;
-import java.util.Scanner;
-
+import java.util.Scanner;   
 public class PA8 {
     public static void main(String[] args) {
         Scanner s = new Scanner(System.in);
